@@ -1,0 +1,13 @@
+[Unit]
+Description=MQTT Forwarder Service
+After=network.target
+
+[Service]
+ExecStart=
+WorkingDirectory=
+Restart=on-failure
+RestartSec=5s
+User=
+
+[Install]
+WantedBy=multi-user.target
